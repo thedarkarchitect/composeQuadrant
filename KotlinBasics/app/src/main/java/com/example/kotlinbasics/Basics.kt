@@ -112,3 +112,17 @@ fun whileChallenge(){
     }
 }
 
+fun forloop(){
+    for(num in 1..10){
+        print("$num")
+    }
+    //OR
+    for (i in 1 until 10){//here we use the keyword "untill"
+        print("$i")
+    }
+
+    for (m in 10 downTo 1 step 2){//here we use the keyword "downTO" and "step" so skip every two digits
+        //same as -- for(m in 10.downT0(1).step(2))
+        print("$m")
+    }
+}
