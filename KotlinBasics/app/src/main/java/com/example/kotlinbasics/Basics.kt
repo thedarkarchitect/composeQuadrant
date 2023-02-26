@@ -5,11 +5,9 @@ package com.example.kotlinbasics
 //}
 
 fun main(args : Array<String>) {
-    println("Hello, World!")
-    name()
-
+    var myName = "Denis"
+    println("Hello, $myName and the length of name is ${myName.length} ")
+    //this is called string templation by using "$" to write expression and and variables into strings
+    //as kotlin prefers.
 }
 
-fun name(){
-    print("kevin")
-}
