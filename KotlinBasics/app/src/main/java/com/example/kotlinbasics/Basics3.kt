@@ -18,7 +18,7 @@ class Person constructor(firstName: String, lastName: String){
 
     //Initialzer Block or prepartion section
     init{
-        this.firstName = firstName
+        this.firstName = firstName//the first name is stored in the member variable firstName
         print("Initialized a new Person object with "+
         "firstName = $firstName and lastName = $lastName")
     }
